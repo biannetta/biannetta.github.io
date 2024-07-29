@@ -1,33 +1,9 @@
-# Site settings
-email: benjamin.iannetta@gmail.com
+url: ""
 baseurl: ""
-paginate: 5
-paginate_path: "/blog/page-:num"
-google_analytics:
+title: "Benjamin Iannetta, MBA"
 
-# SEO settings
-title: Scrum Life
-description:
-url: "biannetta.github.io"
-twitter_username: biannetta
-default_img:
+plugins:
+  - jekyll-postcss
 
-# Profile settings
-name:
-profile_img:
-profile:
-social:
-  github:
-
-# Build settings
-include: ["_categories"]
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
-markdown: kramdown
-permalink: /:year/:month/:day/:title/
-
-# Sass
-sass:
-  style: compressed
-
-# Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+postcss:
+  cache: false
