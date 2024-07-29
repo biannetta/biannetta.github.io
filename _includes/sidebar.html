@@ -1,0 +1,10 @@
+<nav class="flex flex-row md:flex-col justify-around ml-10 mr-10">
+  {% for item in site.data.navigation %}
+  <div class="leading-10 p-1 text-blue-950 hover:text-blue-1000">
+    <a href="{{item.link}}">
+      <i class="text-4xl md:text-xl fa-brands fa-{{item.icon}}"></i>
+      <span class="hidden md:inline">{{ item.name }}</span>
+    </a>
+  </div>
+  {% endfor %}
+</nav>

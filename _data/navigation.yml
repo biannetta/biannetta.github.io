@@ -1,0 +1,12 @@
+- name: Resume
+  link: https://drive.google.com/file/d/17-NjrCTEJFpWCwZooYPPP2g-HbRxNA5-/view
+  icon: elementor
+- name: Github
+  link: https://github.com/biannetta
+  icon: github
+- name: LinkedIn
+  link: https://www.linkedin.com/in/biannetta
+  icon: linkedin
+- name: Facebook
+  link: https://www.facebook.com/benjamin.iannetta
+  icon: facebook
