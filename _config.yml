@@ -1,5 +1,5 @@
-url: ""
-baseurl: ""
+url: "https://biannetta.github.io"
+baseurl: "biannetta.github.io"
 title: "Benjamin Iannetta, MBA"
 
 plugins:
@@ -7,3 +7,5 @@ plugins:
 
 postcss:
   cache: false
+
+include: ["node_modules/tailwindcss"]
